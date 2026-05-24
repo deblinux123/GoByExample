@@ -24,4 +24,12 @@ func main() {
 	}
 
 	fmt.Println(fib(7))
+
+	var add func(a, b int) int
+
+	add = func(a, b int) int {
+		return a + b
+	}
+
+	fmt.Println(add(2, 3))
 }
