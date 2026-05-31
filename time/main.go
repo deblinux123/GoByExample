@@ -31,4 +31,5 @@ func main() {
 
 	p(then.Add(dif))
 	p(then.Add(-dif))
+
 }
